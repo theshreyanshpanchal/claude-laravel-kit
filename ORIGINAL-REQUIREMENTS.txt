@@ -1,0 +1,44 @@
+What things I have to take care of code wise?
+
+What I think we need to take care is that.nProper use of laravel's core features like:
+
+* Model
+* Controller
+* Service
+* Enums (With integer value)
+* Requests
+* Resources
+* Contracts (To define the base of anything if needed and it will be great if we can use)
+* Soft delete feature where needed
+* Proper use of Eloquent ORM
+* Proper use of Queue jobs & scheduler
+* Proper use of Observer and Event listners
+* Proper use of the Try catch or error handling
+* Use of DB transactions, commit & rollback
+* Use of Middlewere
+* Use of Migrations, Seeders & Factories
+* Use of scopes, accessors, mutators, relationships
+* No N+1 issues
+* Only pass the required details
+* Proper DB design which must be scaleable and reliable
+* Proper use of match statements and code quality
+* No dead code at all
+* Proper routes and proper API's with proper naming conventions
+* Proper defined env and env.examples
+* Proper RBAC (Role and permissions) flow (If suggested then and then only)
+* Proper use of laravel collection methods instead of the array functions
+* No any extra queries and queries must be efficient and fast
+* Proper use of the Traits and helpers file
+* Proper use of common API response structure.
+* Test cases (Only if suggested for backend or frontend if user wants then and then only)
+* Also many more things like
+   * No long files of the controller or services make sure files code is not more then 500 lines
+   * Proper spacing
+   * Proper handling for all cases and edge scenarios from where code can be break
+   * Proper small commenting if needed only (Please avoid the general or comments which don't needed)
+* Need to also follow the proper good coding structure for the blade template engine if used
+   * Blade template inheritance, components feature and all while implementations
+* Also same way if vueJS or any front end thing is used then also need to follow the proper coding standards
+* At the end if there are APIs then it also good to prepare the postman collection with proper folder structure and all also using the general variables in it like {BASE_URL}, {VERSION}, {BEARER_TOKEN} etc.. so it will be easy to use also if also have some time then ask for the example responses and also added the example responses and the descriptions like request body validations and all things so user will have an idea. (Only include the 1 success response and 1 error or validation response only in example response - no all status code response)
+
+So, For the above things first tell me in short that how can I train my Claude to work for tomorrow? Explain me in non technical like how can I tell it to follow these things and all.
